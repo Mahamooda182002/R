@@ -1,0 +1,12 @@
+# Convert DTM to a data frame
+dtm_df <- as.data.frame(as.matrix(dtm))
+
+# Calculate word frequencies
+word_freq <- colSums(dtm_df)
+
+# Sort words by frequency in descending order
+word_freq <- sort(word_freq, decreasing = TRUE)
+
+# Display the most frequent words
+top_words <- head(word_freq, 10)
+print(top_words)
