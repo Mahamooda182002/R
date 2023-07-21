@@ -1,0 +1,7 @@
+# Create a bar plot for top words
+top_words_df <- data.frame(word = names(top_words), freq = top_words)
+
+ggplot(top_words_df, aes(x = reorder(word, -freq), y = freq)) +
+  geom_bar(stat = "identity", fill = "blue") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  labs(title = "Top 10 Most Frequent Words", x = "Word", y = "Frequency")
