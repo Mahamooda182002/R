@@ -1,0 +1,7 @@
+# Read text file and create a corpus
+corpus <- Corpus(VectorSource(readLines("sample_text.txt")))
+# Text preprocessing
+corpus <- tm_map(corpus, content_transformer(tolower))
+corpus <- tm_map(corpus, removePunctuation)
+corpus <- tm_map(corpus, removeNumbers)
+corpus <- tm_map(corpus, removeWords, stopwords("english"))
