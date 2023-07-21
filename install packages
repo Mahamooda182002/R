@@ -1,0 +1,9 @@
+install.packages("tm")
+install.packages("tidytext")
+install.packages("dplyr")
+install.packages("ggplot2")
+
+library(tm)
+library(tidytext)
+library(dplyr)
+library(ggplot2)
