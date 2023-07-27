@@ -16,7 +16,7 @@ Export visualizations as images or data.
 How to Use
 Clone this repository to your local machine:
 bash
-git clone https://github.com/yourusername/Data-Dashboard.git
+git clone https://github.com/Mahamooda182002/Data-Dashboard.git
 cd Data-Dashboard
 Install the required R packages mentioned in the app.R file.
 
