@@ -16,7 +16,6 @@ Export visualizations as images or data.
 How to Use
 Clone this repository to your local machine:
 bash
-git clone https://github.com/Mahamooda182002/Data-Dashboard.git
 cd Data-Dashboard
 Install the required R packages mentioned in the app.R file.
 
@@ -40,7 +39,6 @@ Analyze sentiment trends over time.
 How to Use
 Clone this repository to your local machine:
 bash
-git clone https://github.com/yourusername/Sentiment-Analysis.git
 cd Sentiment-Analysis
 Install the required R packages mentioned in the R script.
 
@@ -58,7 +56,6 @@ Evaluate recommendation performance using metrics like RMSE or Precision@k.
 How to Use
 Clone this repository to your local machine:
 bash
-git clone https://github.com/yourusername/Recommendation-System.git
 cd Recommendation-System
 Install the required R packages mentioned in the R script.
 
@@ -76,7 +73,6 @@ Save scraped data as CSV or Excel files.
 How to Use
 Clone this repository to your local machine:
 bash
-git clone https://github.com/yourusername/Web-Scraping.git
 cd Web-Scraping
 Install the required R packages mentioned in the R script.
 
